@@ -1,0 +1,23 @@
+﻿<Window x:Class="WPF_Contacts.NewContactWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Contacts"
+        mc:Ignorable="d"
+        Title="NewContactWindow" Height="400" Width="300">
+    
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBox x:Name="nameTextBox"
+                     Margin="0,0,0,5"/>
+            <TextBox x:Name="emailTextBox"
+                     Margin="0,0,0,5"/>
+            <TextBox x:Name="phoneTextBox"
+                     Margin="0,0,0,5"/>
+            <Button x:Name="SaveButton"
+                    Content="Save"
+                    Click="SaveButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
