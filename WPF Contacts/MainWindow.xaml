@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WPF_Contacts"
         xmlns:uc="clr-namespace:WPF_Contacts.Controls"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="300">
+        Title="MainWindow" Height="600" Width="400">
     <StackPanel Margin="10">
         <Button Content="New Contact"
                 Click="Button_Click"/>
@@ -17,7 +17,7 @@
                  TextChanged="TextBox_TextChanged"/>
 
         <ListView x:Name="contactsListView"
-                  Height="300"
+                  Height="480"
                   SelectionChanged="contactsListView_SelectionChanged"
                   Margin="0 5 0 0">
             <ListView.ItemContainerStyle>

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         WindowStyle="None"
         ResizeMode="NoResize"
-        Title="ContactsDetailsWindow" Height="600" Width="400">
+        Title="ContactsDetailsWindow" Height="400" Width="300">
     <Grid>
         <StackPanel Margin="10">
             <TextBlock Text="Name:"/>
@@ -29,7 +29,11 @@
                     Background="OrangeRed"
                     Foreground="White"
                     Click="DeleteButton_Click"/>
-            
+            <Button x:Name="CloseButton"
+                    Content="Close"
+                    Margin="0 5 0 0"
+                    Click="CloseButton_Click"/>
+
         </StackPanel>
     </Grid>
 </Window>

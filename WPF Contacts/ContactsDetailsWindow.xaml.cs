@@ -59,5 +59,10 @@ namespace WPF_Contacts
 
             Close();
         }
+
+        private void CloseButton_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }
