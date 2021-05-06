@@ -5,15 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Contacts"
         mc:Ignorable="d"
-        Title="ContactsDetailsWindow" Height="400" Width="300">
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Title="ContactsDetailsWindow" Height="600" Width="400">
     <Grid>
         <StackPanel Margin="10">
+            <TextBlock Text="Name:"/>
             <TextBox x:Name="nameTextBox"
                      Margin="0,0,0,5"/>
+            <TextBlock Text="E-mail:"/>
             <TextBox x:Name="emailTextBox"
                      Margin="0,0,0,5"/>
+            <TextBlock Text="Phone:"/>
             <TextBox x:Name="phoneTextBox"
                      Margin="0,0,0,5"/>
+            
             <Button x:Name="UpdateButton"
                     Content="Update"
                     Click="UpdateButton_Click"/>

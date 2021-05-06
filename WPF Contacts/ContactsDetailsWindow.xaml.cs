@@ -26,6 +26,9 @@ namespace WPF_Contacts
         {
             InitializeComponent();
 
+            Owner = Application.Current.MainWindow;
+            WindowStartupLocation = WindowStartupLocation.CenterOwner;
+
             this.contact = contact;
             nameTextBox.Text = contact.Name;
             emailTextBox.Text = contact.Email;

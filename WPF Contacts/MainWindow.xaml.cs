@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WPF_Contacts.Classes;
+using WPF_Contacts.Controls;
 
 namespace WPF_Contacts
 {
